@@ -1,0 +1,35 @@
+{
+  "name": "cli-gateway",
+  "displayName": "CLI Gateway",
+  "version": "0.1.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Authed cloud CLI execution: run gcloud, gh, trello, and dozens of other CLIs through one hosted MCP gateway, with per-tenant credentials and an audit trail. No local CLI installs or ambient credentials required.",
+  "author": {
+    "name": "OpsAgents",
+    "email": "michal@opsagents.agency"
+  },
+  "homepage": "https://opsagents.agency/products/cli-gateway",
+  "repository": "https://github.com/OpsAgentsAI/cli-gateway-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "gateway",
+    "cloud",
+    "automation",
+    "devops",
+    "gcloud",
+    "github",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "cli",
+    "automation",
+    "devops",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/"
+}
